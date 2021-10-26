@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Multitech 1.0.0.exe" version="1.0.0.0" publicKeyToken="977e6d09ea997b97" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Multitech 1.0.0" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Multitech 1.0.0.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Multitech 1.0.0.exe" size="292824">
+      <assemblyIdentity name="Multitech 1.0.0" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LbjCJzixr78xVFMw4SGEReAYexB6g/W8ZilyNBAT/CM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Multitech 1.0.0.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-MTQ38AK\User" issuerKeyHash="4a363f66f2052790ef644f5298b21f707fa2b2f3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1P3kpHcNNhs8X4VKlKdHbA6qIjj4Ladr9TqAOcEUmns=</DigestValue></Reference></SignedInfo><SignatureValue>CfNK7+yuAv1AwaX6jQRhSC8Yp8tAV3uy0rS3ZkdBoLKwrDKZXotLHDxA9UaryAo7HxXMCZLJWUwDk/6NPdaQVsSc6zobGHu+Qv/TjD2NoDMGWdWGKzPev2RSOrAuwijpqZGucBAy6IYilOZcbJm5qgsCgxjLhyPGQUG8msJbByM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>y4+8qhv8tsx9a8xcXELiMMKeImaUi7yozA7392+VE6wjHcJhYgGCF1/33dTFjxwgdLgPZFTFXmeRNMPU7x94DgE89eOJFUTxuRAVddDqXRrSVatqj3U8EnVnEJYIC8y1/p5h7DYh/nWzAl4EfjFILbOLYkaV9ES9pcQQGzsvidU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7b9a14c139803af56ba72df83822aa0e6c47a7944a855f3c1b360d77a4e4fdd4" Description="" Url=""><as:assemblyIdentity name="Multitech 1.0.0.exe" version="1.0.0.0" publicKeyToken="977e6d09ea997b97" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-MTQ38AK\User</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>vX1c3iYmc2/D4/VAyuGiwuIVK7qG+HJKkUW1dosTg9U=</DigestValue></Reference></SignedInfo><SignatureValue>CE4eOHNUPFcwgEq9fT9iMcMXsnllOpxA4C2uE84H6YYzuCjAGLhjrh/fn2y0EpLVHv6f5XprO/lLvENFaVsjUqCCWNT3QZ3psUkAHD9TkB94GY5Hs71/ClXuwI7inlbKAydCoPONWteOTO89QehUDJk0JyKcOZSh5/e25ToTwvM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>y4+8qhv8tsx9a8xcXELiMMKeImaUi7yozA7392+VE6wjHcJhYgGCF1/33dTFjxwgdLgPZFTFXmeRNMPU7x94DgE89eOJFUTxuRAVddDqXRrSVatqj3U8EnVnEJYIC8y1/p5h7DYh/nWzAl4EfjFILbOLYkaV9ES9pcQQGzsvidU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQTj5YIxUaMKtAdxPMcVKXTDANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAE0AVABRADMAOABBAEsAXABVAHMAZQByMB4XDTIxMTAwODA2NTMzOVoXDTIyMTAwODEyNTMzOVowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBNAFQAUQAzADgAQQBLAFwAVQBzAGUAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAy4+8qhv8tsx9a8xcXELiMMKeImaUi7yozA7392+VE6wjHcJhYgGCF1/33dTFjxwgdLgPZFTFXmeRNMPU7x94DgE89eOJFUTxuRAVddDqXRrSVatqj3U8EnVnEJYIC8y1/p5h7DYh/nWzAl4EfjFILbOLYkaV9ES9pcQQGzsvidUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCMJoS2/OBXxod53Kt/OKdARXXHd7j9cWrPhnI+azd1r1bdFpZ0Fb7U2gvpv5REyPety0Mg7hJdg8InWE1ZHwacO2xvz5TQ5mxaB2HBEZtItIvhC+uZBY+MmLulym5Ea1z/djhEOHaLdQ4b+yXMoJe048zzx6slrQWAjWwjI/eK5A==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
