@@ -1,5 +1,5 @@
-# Load-Cell-Multitech
-Program ini dingunakan untuk membaca data serial dari mikrokontroller.
+# Load-Cell-Multitek
+Program ini digunakan untuk membaca data serial dari mikrokontroller.
 contoh data serial yang dikirim yaitu
 
 > ~1 2 3 4 5 6 7 8 9 10#
